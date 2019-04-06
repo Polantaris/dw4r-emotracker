@@ -1,0 +1,20 @@
+[
+    {
+        "name": "worldmap",
+        "location_size": 20,
+        "location_border_thickness": 5,
+        "img": "images/overworld_quarter.png"
+    },
+    {
+        "name": "gottside",
+        "location_size": 20,
+        "location_border_thickness": 5,
+        "img": "images/gottside_quarter.png"
+    },
+    {
+        "name": "evilworld",
+        "location_size": 20,
+        "location_border_thickness": 5,
+        "img": "images/darkworld_quarter.png"
+    }
+]

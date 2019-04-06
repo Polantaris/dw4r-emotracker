@@ -1,0 +1,438 @@
+[
+    /*Chapter 1*/
+    {
+        "name": "Playground Rumor",
+        "type": "toggle",
+        "img": "images/orin.gif",
+        "codes": "playgroundrumor"
+    },
+    {
+        "name": "Flying Shoes",
+        "type": "toggle",
+        "img": "images/flying_shoes_th.png",
+        "codes": "flyingshoes"
+    },
+    {
+        "name": "Healie Recruited",
+        "type": "toggle",
+        "img": "images/healie.gif",
+        "codes": "healie"
+    },
+    {
+        "name": "Chapter 1 Complete",
+        "type": "toggle",
+        "img": "images/chclear.png",
+        "codes": "ch1complete"
+    },
+    /*Chapter 2*/
+    {
+        "name": "Golden Bracelet",
+        "type": "toggle",
+        "img": "images/flying_shoes_th.png",
+        "codes": "goldenbracelet"
+    },
+    {
+        "name": "Birdsong Nectar",
+        "type": "toggle",
+        "img": "images/birdsong_nectar_th.png",
+        "codes": "birdsongnectar"
+    },
+    {
+        "name": "Chapter 2 Complete",
+        "type": "toggle",
+        "img": "images/chclear.png",
+        "codes": "ch2complete"
+    },
+    /*Chapter 3*/
+    {
+        "name": "Iron Safe",
+        "type": "toggle",
+        "img": "images/iron_safe_th.png",
+        "codes": "ironsafe"
+    },
+    {
+        "name": "Bridges Built",
+        "type": "toggle",
+        "img": "images/bridge.png",
+        "codes": "bridgesbuilt"
+    },
+    {
+        "name": "Prince's Letter",
+        "type": "toggle",
+        "img": "images/princes_letter_th.png",
+        "codes": "princesletter"
+    },
+    {
+        "name": "Royal Scroll",
+        "type": "toggle",
+        "img": "images/royal_scroll_th.png",
+        "codes": "royalscroll"
+    },
+    {
+        "name": "Silver Statuette",
+        "type": "toggle",
+        "img": "images/silver_statuette_th.png",
+        "codes": "silverstatuette"
+    },
+    {
+        "name": "Shop Bought",
+        "type": "toggle",
+        "img": "images/shopsign.png",
+        "codes": "shopbought"
+    },
+    {
+        "name": "Chapter 3 Complete",
+        "type": "toggle",
+        "img": "images/chclear.png",
+        "codes": "ch3complete"
+    },
+    /*Chapter 4*/
+    {
+        "name": "Orin Recruited",
+        "type": "toggle",
+        "img": "images/orin.gif",
+        "codes": "orin"
+    },
+    {
+        "name": "Sphere of Silence",
+        "type": "toggle",
+        "img": "images/sphere_of_silence_th.png",
+        "codes": "sphereofsilence"
+    },
+    {
+        "name": "Gunpowder Jar",
+        "type": "toggle",
+        "img": "images/gunpowder_jar_th.png",
+        "codes": "gunpowderjar"
+    },
+    {
+        "name": "Boarding Pass",
+        "type": "toggle",
+        "img": "images/boarding_pass_th.png",
+        "codes": "boardingpass"
+    },
+    {
+        "name": "Chapter 4 Complete",
+        "type": "toggle",
+        "img": "images/chclear.png",
+        "codes": "ch4complete"
+    },
+    /*Generic/All/Chapter 5*/
+    /*Keys*/
+    {
+        "name": "Thief's Key",
+        "type": "toggle",
+        "img": "images/thiefs_key_th.png",
+        "codes": "thiefskey"
+    },
+    {
+        "name": "Magic Key",
+        "type": "toggle",
+        "img": "images/magic_key_th.png",
+        "codes": "magickey"
+    },
+    {
+        "name": "Final Key",
+        "type": "toggle",
+        "img": "images/final_key_th.png",
+        "codes": "finalkey"
+    },
+    /*Zenithian Gear*/
+    {
+        "name": "Zenithian Sword",
+        "type": "toggle",
+        "img": "images/zenithian_sword_th.png",
+        "codes": "zenithiansword"
+    },
+    {
+        "name": "Zenithian Shield",
+        "type": "toggle",
+        "img": "images/zenithian_shield_th.png",
+        "codes": "zenithianshield"
+    },
+    {
+        "name": "Zenithian Armor",
+        "type": "toggle",
+        "img": "images/zenithian_armor_th.png",
+        "codes": "zenithianarmor"
+    },
+    {
+        "name": "Zenithian Helm",
+        "type": "toggle",
+        "img": "images/zenithian_helm_th.png",
+        "codes": "zenithianhelm"
+    },
+    /*Recruitment Characters in Ch 5*/
+    {
+        "name": "Hector",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/lucia.gif",
+                "codes": "hector"
+            },
+            {
+                "img": "images/lucia_gone.gif",
+            }
+        ]
+    },
+    {
+        "name": "Panon",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/lucia.gif",
+                "codes": "panon"
+            },
+            {
+                "img": "images/lucia_gone.gif",
+            }
+        ]
+    },
+    {
+        "name": "Lucia",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/lucia.gif",
+                "codes": "lucia"
+            },
+            {
+                "img": "images/lucia_gone.gif",
+            }
+        ]
+    },
+    {
+        "name": "Doran",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/lucia.gif",
+                "codes": "doran"
+            },
+            {
+                "img": "images/lucia_gone.gif",
+            }
+        ]
+    },
+    /*Required Key Items*/
+    {
+        "name": "Symbol of Faith",
+        "type": "toggle",
+        "img": "images/symbol_of_faith_th.png",
+        "codes": "symboloffaith"
+    },
+    {
+        "name": "Fire of Serenity",
+        "type": "toggle",
+        "img": "images/fire_of_serenity_th.png",
+        "codes": "fireofserenity"
+    },
+    {
+        "name": "Boat",
+        "type": "toggle",
+        "img": "images/boat.png",
+        "codes": "boat"
+    },
+    {
+        "name": "Padequia Seed",
+        "type": "toggle",
+        "img": "images/padequia_seed_th.png",
+        "codes": "padequiaseed"
+    },
+    {
+        "name": "Padequia Root",
+        "type": "toggle",
+        "img": "images/padequia_root_th.png",
+        "codes": "padequiaroot"
+    },
+    {
+        "name": "Magma Staff",
+        "type": "toggle",
+        "img": "images/magma_staff_th.png",
+        "codes": "magmastaff"
+    },
+    {
+        "name": "Staff of Transform",
+        "type": "toggle",
+        "img": "images/staff_of_transform_th.png",
+        "codes": "staffoftransform"
+    },
+    {
+        "name": "Stone of Drought",
+        "type": "toggle",
+        "img": "images/stone_of_drought_th.png",
+        "codes": "stoneofdrought"
+    },
+    {
+        "name": "Gas Canister",
+        "type": "toggle",
+        "img": "images/gas_canister_th.png",
+        "codes": "gascanister"
+    },
+    /*Nice to have gear*/
+    /*Metal Babble Gear*/
+    {
+        "name": "Metal Babble Sword",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/metal_babble_sword_th.png",
+                "codes": "metalbabblesword"
+            },
+            {
+                "img": "images/metal_babble_sword_th_2.png",
+            },
+            {
+                "img": "images/metal_babble_sword_th_3.png",
+            },
+            {
+                "img": "images/metal_babble_sword_th_4.png",
+            }
+        ]
+    },
+    {
+        "name": "Metal Babble Shield",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/metal_babble_shield_th.png",
+                "codes": "metalbabbleshield"
+            },
+            {
+                "img": "images/metal_babble_shield_th_2.png",
+            },
+            {
+                "img": "images/metal_babble_shield_th_3.png",
+            },
+            {
+                "img": "images/metal_babble_shield_th_4.png",
+            }
+        ]
+    },
+    {
+        "name": "Metal Babble Armor",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/metal_babble_armor_th.png",
+                "codes": "metalbabblearmor"
+            },
+            {
+                "img": "images/metal_babble_armor_th_2.png",
+            },
+            {
+                "img": "images/metal_babble_armor_th_3.png",
+            },
+            {
+                "img": "images/metal_babble_armor_th_4.png",
+            }
+        ]
+    },
+    {
+        "name": "Metal Babble Helm",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/metal_babble_helm_th.png",
+                "codes": "metalbabblehelm"
+            },
+            {
+                "img": "images/metal_babble_helm_th_2.png",
+            },
+            {
+                "img": "images/metal_babble_helm_th_3.png",
+            },
+            {
+                "img": "images/metal_babble_helm_th_4.png",
+            }
+        ]
+    },
+    {
+        "name": "Hat of Happiness",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/hat_of_happiness_th.png",
+                "codes": "hatofhappiness"
+            },
+            {
+                "img": "images/hat_of_happiness_th_2.png",
+            },
+            {
+                "img": "images/hat_of_happiness_th_3.png",
+            },
+            {
+                "img": "images/hat_of_happiness_th_4.png",
+            }
+        ]
+    },
+    {
+        "name": "Stiletto Earrings",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/stilleto_earrings_th.png",
+                "codes": "stilettoearrings"
+            },
+            {
+                "img": "images/stilleto_earrings_th_2.png",
+            },
+            {
+                "img": "images/stilleto_earrings_th_3.png",
+            },
+            {
+                "img": "images/stilleto_earrings_th_4.png",
+            }
+        ]
+    },
+    {
+        "name": "Aeolus Shield",
+        "type": "toggle",
+        "img": "images/aeolus_shield_th.png",
+        "codes": "aeolusshield"
+    },
+    {
+        "name": "Demon Hammer",
+        "type": "toggle",
+        "img": "images/demon_hammer_th.png",
+        "codes": "demonhammer"
+    },
+    {
+        "name": "Sword of Decimation",
+        "type": "toggle",
+        "img": "images/sword_of_decimation_th.png",
+        "codes": "swordofdecimation"
+    },
+    {
+        "name": "Sword of Lethargy",
+        "type": "toggle",
+        "img": "images/sword_of_lethargy_th.png",
+        "codes": "swordoflethargy"
+    },
+    /*Complete Garbage Key Items*/
+    {
+        "name": "Flute of Uncovering",
+        "type": "toggle",
+        "img": "images/flute_of_uncovering_th.png",
+        "codes": "fluteofuncovering"
+    },
+    {
+        "name": "Gum Pod",
+        "type": "toggle",
+        "img": "images/gum_pod_th.png",
+        "codes": "gumpod"
+    },
+    {
+        "name": "Lamp of Darkness",
+        "type": "toggle",
+        "img": "images/lamp_of_darkness_th.png",
+        "codes": "lampofdarkness"
+    },
+    {
+        "name": "Sandglass of Regression",
+        "type": "toggle",
+        "img": "images/sandglass_of_regression_th.png",
+        "codes": "sandglassofregression"
+    },
+]

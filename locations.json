@@ -1,0 +1,127 @@
+[
+    /*Burland area*/
+    {
+        "name": "Burland",
+        "color": "#059134",
+        "children": [
+            /*Burland Castle*/
+            {
+                "name": "Burland Castle",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Treasure Room",
+                        "access_rules": [ "magickey,ch5Accessible", "magickey,ch1Accessible" ],
+                        "capture_item": true,
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Dresser in bottom right bedroom",
+                        "access_rules": [ "ch1Accessible" ],
+                        "capture_item": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 658,
+                        "y": 188
+                    }
+                ]
+            },
+            /*Cave to Izmit*/
+            {
+                "name": "Cave to Izmit",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "ch1Accessible" ],
+                        "capture_item": true,
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 568,
+                        "y": 130
+                    },
+                    {
+                        "map": "worldmap",
+                        "x": 568,
+                        "y": 114
+                    }
+
+                ]
+            },
+            /*Izmit*/
+            {
+                "name": "Izmit",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Inn Dresser",
+                        "access_rules": [ "ch1Accessible" ],
+                        "capture_item": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 617,
+                        "y": 94
+                    }
+                ]
+            },
+            /*Secret Playground*/
+            {
+                "name": "Secret Playground",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Exit Pots",
+                        "access_rules": [ "playgroundrumor,ch1Accessible" ],
+                        "capture_item": true,
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "playgroundrumor,ch1Accessible" ],
+                        "capture_item": true,
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 648,
+                        "y": 110
+                    }
+                ]
+            },
+            /*Loch Tower*/
+            {
+                "name": "Loch Tower",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "flyingshoes,ch1Accessible" ],
+                        "capture_item": true,
+                        "item_count": 6
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 545,
+                        "y": 98
+                    }
+                ]
+            }
+        ]
+    }
+]
