@@ -1,60 +1,67 @@
---Chapter 1 Exclusive
-function ch1Accessible()
-    if Tracker:ProviderCountForCode("ch1complete") > 0 && Tracker:ProvideCountForCode("ch4complete") > 0 then
-        return 1
-    else if Tracker:ProviderCountCode("ch1complete") <= 0 then
+function inCh1()
+    if Tracker:ProviderCountForCode("ch1complete") <= 0 then
         return 1
     else
         return 0
     end
 end
 
-function ch2Accessible()
-    if Tracker:ProviderCountForCode("ch2complete") > 0 && Tracker:ProvideCountForCode("ch4complete") > 0 then
-        return 1
-    else if Tracker:ProviderCountCode("ch2complete") <= 0 && Tracker:ProvideCountForCode("ch1complete") > 0 then
+function inCh2()
+    if Tracker:ProviderCountForCode("ch1complete") > 0 and Tracker:ProviderCountForCode("ch2complete") <= 0 then
         return 1
     else
         return 0
     end
 end
 
-function endorAccessible()
-    if Tracker:ProviderCountForCode("ch2complete") > 0 && Tracker:ProvideCountForCode("ch4complete") > 0 then
-        return 1
-    else if Tracker:ProviderCountCode("ch2complete") > 0 && Tracker:ProvideCountForCode("ch3complete") <= 0 then
-        return 1
-    else if Tracker:ProviderCountCode("ch2complete") <= 0 && Tracker:ProvideCountForCode("ch1complete") > 0 then
+function inCh3()
+    if Tracker:ProviderCountForCode("ch2complete") > 0 and Tracker:ProviderCountForCode("ch3complete") <= 0 then
         return 1
     else
         return 0
     end
 end
 
-function ch3Accessible()
-    if Tracker:ProviderCountForCode("ch3complete") > 0 && Tracker:ProvideCountForCode("ch4complete") > 0 then
-        return 1
-    else if Tracker:ProviderCountCode("ch3complete") <= 0 && Tracker:ProvideCountForCode("ch2complete") > 0 then
+function inCh4()
+    if Tracker:ProviderCountForCode("ch3complete") > 0 and Tracker:ProviderCountForCode("ch4complete") <= 0 then
         return 1
     else
         return 0
     end
 end
 
-function ch4Accessible()
+function inCh5()
     if Tracker:ProviderCountForCode("ch4complete") > 0 then
         return 1
-    else if Tracker:ProviderCountCode("ch4complete") <= 0 && Tracker:ProvideCountForCode("ch3complete") > 0 then
+    else
+        return 0
+    end
+end
+
+function canAccessEndor()
+    if Tracker:ProviderCountForCode("ch2complete") <= 0 and Tracker:ProviderCountForCode("birdsongnectar") > 0 then
+        return 1
+    elseif Tracker:ProviderCountForCode("ch3complete") <= 0 and Tracker:ProviderCountForCode("bridgebuilt") > 0 then
+        return 1
+    elseif Tracker:ProviderCountForCode("ch4complete") > 0 then
         return 1
     else
         return 0
     end
 end
 
-function ch5Accessible()
-    if Tracker:ProvideCountForCode("ch1complete") > 0 && Tracker:ProvideCountForCode("ch2complete") > 0 && Tracker:ProvideCountForCode("ch3complete") > 0 && Tracker:ProvideCountForCode("ch4complete") > 0 then
-        return 1
-    else
+function ifNoStaffOfTransform()
+    if Tracker:ProviderCountForCode("staffoftransform") > 0 then
         return 0
+    else
+        return 1
+    end
+end
+
+function noBoat()
+    if Tracker:ProviderCountForCode("boat") > 0 then
+        return 0
+    else
+        return 1
     end
 end

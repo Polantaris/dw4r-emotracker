@@ -3,7 +3,7 @@
     {
         "name": "Playground Rumor",
         "type": "toggle",
-        "img": "images/orin.gif",
+        "img": "images/well.png",
         "codes": "playgroundrumor"
     },
     {
@@ -11,12 +11,6 @@
         "type": "toggle",
         "img": "images/flying_shoes_th.png",
         "codes": "flyingshoes"
-    },
-    {
-        "name": "Healie Recruited",
-        "type": "toggle",
-        "img": "images/healie.gif",
-        "codes": "healie"
     },
     {
         "name": "Chapter 1 Complete",
@@ -28,7 +22,7 @@
     {
         "name": "Golden Bracelet",
         "type": "toggle",
-        "img": "images/flying_shoes_th.png",
+        "img": "images/golden_bracelet_th.png",
         "codes": "goldenbracelet"
     },
     {
@@ -162,17 +156,69 @@
         "img": "images/zenithian_helm_th.png",
         "codes": "zenithianhelm"
     },
-    /*Recruitment Characters in Ch 5*/
+    /*Recruitment Characters*/
+    {
+        "name": "Healie",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/healie.gif",
+                "codes": "healie"
+            },
+            {
+                "img": "images/healie_gone.gif",
+            }
+        ]
+    },
+    {
+        "name": "Strom",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/strom.gif",
+                "codes": "strom"
+            },
+            {
+                "img": "images/strom_gone.gif",
+            }
+        ]
+    },
+    {
+        "name": "Laurent",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/laurent.gif",
+                "codes": "laurent"
+            },
+            {
+                "img": "images/laurent_gone.gif",
+            }
+        ]
+    },
+    {
+        "name": "Orin",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/orin.gif",
+                "codes": "orinrecruitment"
+            },
+            {
+                "img": "images/orin_gone.gif",
+            }
+        ]
+    },
     {
         "name": "Hector",
         "type": "progressive",
         "stages": [
             {
-                "img": "images/lucia.gif",
+                "img": "images/hector.gif",
                 "codes": "hector"
             },
             {
-                "img": "images/lucia_gone.gif",
+                "img": "images/hector_gone.gif",
             }
         ]
     },
@@ -181,11 +227,11 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/lucia.gif",
-                "codes": "panon"
+                "img": "images/panon.gif",
+                "codes": "panonrecruitment"
             },
             {
-                "img": "images/lucia_gone.gif",
+                "img": "images/panon_gone.gif",
             }
         ]
     },
@@ -207,11 +253,11 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/lucia.gif",
+                "img": "images/doran.gif",
                 "codes": "doran"
             },
             {
-                "img": "images/lucia_gone.gif",
+                "img": "images/doran_gone.gif",
             }
         ]
     },
@@ -233,6 +279,12 @@
         "type": "toggle",
         "img": "images/boat.png",
         "codes": "boat"
+    },
+    {
+        "name": "Panon",
+        "type": "toggle",
+        "img": "images/panon.gif",
+        "codes": "panon"
     },
     {
         "name": "Padequia Seed",

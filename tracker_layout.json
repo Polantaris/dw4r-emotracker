@@ -30,7 +30,7 @@
                                             "h_alignment": "center",
                                             "item_margin": "1,2",
                                             "rows": [
-                                                [ "playgroundrumor", "flyingshoes", "healie", "ch1complete" ]
+                                                [ "playgroundrumor", "flyingshoes", "ch1complete" ]
                                             ]
                                         }
                                     },
@@ -76,8 +76,8 @@
                                             "h_alignment": "center",
                                             "item_margin": "1,2",
                                             "rows": [
-                                                [ "orin", "sphereofsilence", "gunpowderjar" ],
-                                                [ "boardingpass", "ch4complete" ]
+                                                [ "sphereofsilence", "gunpowderjar", "boardingpass"], 
+                                                [ "orin", "ch4complete" ]
                                             ]
                                         }
                                     }
@@ -102,14 +102,15 @@
                                 "content": [
                                     {
                                         "type": "group",
-                                        "header": "Keys",
+                                        "header": "Recruitments",
                                         "margin": "1,1",
                                         "content": {
                                             "type": "itemgrid",
                                             "h_alignment": "center",
                                             "item_margin": "1,2",
                                             "rows": [
-                                                [ "thiefskey", "magickey", "finalkey" ]
+                                                [ "healie", "strom", "laurent", "orinrecruitment" ],
+                                                [ "hector", "panonrecruitment", "lucia", "doran" ]
                                             ]
                                         }
                                     },
@@ -125,19 +126,6 @@
                                                 [ "zenithiansword", "zenithianshield", "zenithianarmor", "zenithianhelm" ]
                                             ]
                                         }
-                                    },
-                                    {
-                                        "type": "group",
-                                        "header": "Recruitments",
-                                        "margin": "1,1",
-                                        "content": {
-                                            "type": "itemgrid",
-                                            "h_alignment": "center",
-                                            "item_margin": "1,2",
-                                            "rows": [
-                                                [ "hector", "panon", "lucia", "doran" ]
-                                            ]
-                                        }
                                     }
                                 ]
                             },
@@ -147,6 +135,19 @@
                                 "content": [
                                     {
                                         "type": "group",
+                                        "header": "Keys",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "thiefskey", "magickey", "finalkey" ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
                                         "header": "Required Key Items",
                                         "margin": "1,1",
                                         "content": {
@@ -154,22 +155,9 @@
                                             "h_alignment": "center",
                                             "item_margin": "1,2",
                                             "rows": [
-                                                [ "symboloffaith", "fireofserenity", "boat" ],
+                                                [ "symboloffaith", "fireofserenity", "boat", "panon" ],
                                                 [ "padequiaseed", "padequiaroot", "magmastaff" ],
                                                 [ "staffoftransform", "gascanister", "stoneofdrought" ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "group",
-                                        "header": "Mostly Useless",
-                                        "margin": "1,1",
-                                        "content": {
-                                            "type": "itemgrid",
-                                            "h_alignment": "center",
-                                            "item_margin": "1,2",
-                                            "rows": [
-                                                [ "fluteofuncovering", "gumpod", "lampofdarkness", "sandglassofregression" ]
                                             ]
                                         }
                                     }
@@ -193,10 +181,34 @@
                                                 [ "demonhammer", "swordofdecimation", "swordoflethargy" ]
                                             ]
                                         }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Basically Useless",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "fluteofuncovering", "gumpod", "lampofdarkness", "sandglassofregression" ]
+                                            ]
+                                        }
                                     }
                                 ]
                             }
                         ]
+                    }
+                },
+                {
+                    "type": "container",
+                    "margin": "1,1",
+                    "content": {
+                        "type": "recentpins",
+                        "style": "wrap",
+                        "h_alignment": "stretch",
+                        "v_alignment": "stretch",
+                        "orientation": "vertical",
                     }
                 }
             ]
