@@ -1,0 +1,1275 @@
+[
+    /*Burland area*/
+    {
+        "name": "Burland",
+        "color": "#059134",
+        "children": [
+            /*Burland Castle*/
+            {
+                "name": "Burland Castle",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Treasure Room",
+                        "access_rules": [ "magickey,$inCh1", "$inCh5,magickey,boat" ],
+
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Dresser in bottom right bedroom",
+                        "access_rules": [ "$inCh1", "boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1320,
+                        "y": 376
+                    }
+                ]
+            },
+            /*Cave to Izmit*/
+            {
+                "name": "Cave to Izmit",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh1", "$inCh5,boat" ],
+
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1136,
+                        "y": 260
+                    },
+                    {
+                        "map": "worldmap",
+                        "x": 1136,
+                        "y": 228
+                    }
+
+                ]
+            },
+            /*Izmit*/
+            {
+                "name": "Izmit",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Inn Dresser",
+                        "access_rules": [ "$inCh1", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1234,
+                        "y": 188
+                    }
+                ]
+            },
+            /*Secret Playground*/
+            {
+                "name": "Secret Playground",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Exit Pots",
+                        "access_rules": [ "playgroundrumor,$inCh1" ],
+
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "playgroundrumor,$inCh1" ],
+
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1300,
+                        "y": 220
+                    }
+                ]
+            },
+            /*Loch Tower*/
+            {
+                "name": "Loch Tower",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "flyingshoes,$inCh1", "$inCh5,gascanister" ],
+
+                        "item_count": 6
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1090,
+                        "y": 196
+                    }
+                ]
+            }
+        ]
+    },
+    /*Santeem area*/
+    {
+        "name": "Santeem",
+        "color": "#059134",
+        "children": [
+            /*Santeem Castle*/
+            {
+                "name": "Santeem Castle",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Treasure Room",
+                        "access_rules": [ "magickey,$inCh2", "magickey,$inCh5,boat" ],
+
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Church Bookshelf",
+                        "access_rules": [ "$inCh2", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alena's Dresser",
+                        "access_rules": [ "$inCh2", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Old Man's Dresser in back room",
+                        "access_rules": [ "$inCh2", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 320,
+                        "y": 592
+                    }
+                ]
+            },
+            /*Surene has no items, so it's not tracked.*/
+            /*Tempe*/
+            {
+                "name": "Tempe",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Chameleon Humanoid Pedistal Spot",
+                        "access_rules": [ "$inCh2", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 571,
+                        "y": 468
+                    }
+                ]
+            },
+            /*Frenor*/
+            {
+                "name": "Frenor",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Priest's Garden",
+                        "access_rules": [ "$inCh2", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 773,
+                        "y": 332
+                    }
+                ]
+            },
+            /*Frenor Cave*/
+            {
+                "name": "Frenor Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh2", "$inCh5,boat" ],
+
+                        "item_count": 5
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 708,
+                        "y": 492
+                    }
+                ]
+            },
+            /*Bazaar*/
+            {
+                "name": "Bazaar",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Lady's Pot Collection",
+                        "access_rules": [ "$inCh2" ],
+
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 507,
+                        "y": 603
+                    }
+                ]
+            },
+            /*Birdsong Tower*/
+            {
+                "name": "Birdsong Tower",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh2,thiefskey", "$inCh5,boat,thiefskey" ],
+
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Clumsy Elf",
+                        "access_rules": [ "$inCh2,thiefskey", "$inCh5,boat,thiefskey" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 292,
+                        "y": 706
+                    }
+                ]
+            },
+        ]
+    },
+    /*Endor area*/
+    {
+        "name": "Endor",
+        "color": "#059134",
+        "children": [
+            /*Endor Castle*/
+            {
+                "name": "Endor Castle Town",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Secret Shop Treasures",
+                        "access_rules": [ "$canAccessEndor,magickey" ],
+
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Royal Suite",
+                        "access_rules": [ "$canAccessEndor,magickey" ],
+
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Royal Suite Dresser",
+                        "access_rules": [ "$canAccessEndor,magickey" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Castle Left Exterior Basement",
+                        "access_rules": [ "$canAccessEndor" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 832,
+                        "y": 816
+                    }
+                ]
+            },
+            /*Silver Statuette Cave, technically it's not part of Endor but it's connected to it I guess?*/
+            {
+                "name": "Silver Statuette Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$canAccessEndor,bridgesbuilt" ],
+
+                        "item_count": 10
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1036,
+                        "y": 525
+                    }
+                ]
+            },
+            /*Endor Crypt*/
+            {
+                "name": "Endor Crypt",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,boat,finalkey" ],
+
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 755,
+                        "y": 980
+                    }
+                ]
+            }
+        ]
+    },
+    /*Bonmalmo area*/
+    {
+        "name": "Bonmalmo",
+        "color": "#059134",
+        "children": [
+            /*Lakanaba*/
+            {
+                "name": "Lakanaba",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Taloon's House Pot",
+                        "access_rules": [ "$inCh3", "$inCh5" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taloon's Boss's Treasure Trove",
+                        "access_rules": [ "$inCh3", "$inCh5" ],
+
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 836,
+                        "y": 300
+                    }
+                ]
+            },
+            /*Lakanaba Cave*/
+            {
+                "name": "Lakanaba Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh3", "$inCh5" ],
+
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 907,
+                        "y": 172
+                    }
+                ]
+            }
+            /*Neither Foxville nor Bonmalmo have items, so they're not tracked.*/
+        ]
+    },
+    /*Keeleon area*/
+    {
+        "name": "Keeleon",
+        "color": "#059134",
+        "children": [
+            /*Monbaraba*/
+            {
+                "name": "Monbaraba",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Mara's Boss's Dresser",
+                        "access_rules": [ "$inCh4", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Leftovers in the Crowd Chairs",
+                        "access_rules": [ "$inCh4", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pot near where the sisters sleep.",
+                        "access_rules": [ "$inCh4", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 460,
+                        "y": 1853
+                    }
+                ]
+            },
+            /*Kievs*/
+            {
+                "name": "Kievs",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Edgar's Basement",
+                        "access_rules": [ "$inCh4", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Edgar's Pot",
+                        "access_rules": [ "$inCh4", "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 411,
+                        "y": 1524
+                    }
+                ]
+            },
+            /*Kievs Cave*/
+            {
+                "name": "Kievs Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh4", "$inCh5,boat" ],
+
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Lamp of Darkness Chest Room",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamp of Darkness Chest Room Dresser",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 256,
+                        "y": 1500
+                    }
+                ]
+            },
+            /*Keeleon Castle*/
+            {
+                "name": "Keeleon Castle",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Boarding Pass Chest",
+                        "access_rules": [ "$inCh4,orin,gunpowderjar" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 520,
+                        "y": 1338
+                    }
+                ]
+            },
+            /*Haville*/
+            {
+                "name": "Haville",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Jail Cell Pots",
+                        "access_rules": [ "$inCh5,boat,finalkey" ],
+
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 531,
+                        "y": 1245
+                    }
+                ]
+            },
+            /*Aktemto*/
+            {
+                "name": "Aktemto Mine",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Mine Top Levels",
+                        "access_rules": [ "$inCh4", "$inCh5,boat" ],
+
+                        "item_count": 2
+                    },
+                    {
+                        /*The chest that normally contains the Gunpowder Jar disappears after Esturk is awakened, most likely because a different map is used.*/
+                        "name": "Gunpowder Jar Chest",
+                        "access_rules": [ "$inCh4", "$inCh5,boat,$ifNoStaffOfTransform" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Esturk's Castle",
+                        "access_rules": [ "$inCh5,boat,finalkey,staffoftransform" ],
+
+                        "item_count": 8
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 244,
+                        "y": 1212
+                    }
+                ]
+            },
+        ]
+    },
+    /*Branca area*/
+    {
+        "name": "Branca",
+        "color": "#059134",
+        "children": [
+            /*Hero's Hometown*/
+            {
+                "name": "Hero's Hometown",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Basement Pot",
+                        "access_rules": [ "$inCh5" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celia's Play Spot",
+                        "access_rules": [ "$inCh5" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1163,
+                        "y": 404
+                    }
+                ]
+            },
+            /*Woodsman's Shack*/
+            {
+                "name": "Woodsman's Shack",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Pots",
+                        "access_rules": [ "$inCh5" ],
+
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1171,
+                        "y": 476
+                    }
+                ]
+            },
+            /*Branca Castle Town*/
+            {
+                "name": "Branca Castle Town",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Treasure Room",
+                        "access_rules": [ "$inCh5,finalkey" ],
+
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1232,
+                        "y": 560
+                    }
+                ]
+            },
+            /*Cave of Betrayal*/
+            {
+                "name": "Cave of Betrayal",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Symbol of Faith Room",
+                        "access_rules": [ "$inCh5" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1780,
+                        "y": 563
+                    }
+                ]
+            },
+            /*Hector's Inn*/
+            {
+                "name": "Hector's Inn",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Back Room",
+                        "access_rules": [ "$inCh5" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1428,
+                        "y": 628
+                    }
+                ]
+            },
+            /*Aneaux*/
+            {
+                "name": "Aneaux",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Grave Site",
+                        "access_rules": [ "$inCh5,symboloffaith" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1493,
+                        "y": 788
+                    }
+                ]
+            },
+            /*Konenber*/
+            {
+                "name": "Konenber",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Inn Room",
+                        "access_rules": [ "$inCh5,symboloffaith,finalkey" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ship Dresser (missable)",
+                        "access_rules": [ "$inCh5,symboloffaith,$noBoat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1356,
+                        "y": 1100
+                    }
+                ]
+            },
+            /*Lighthouse*/
+            {
+                "name": "Lighthouse",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,symboloffaith" ],
+
+                        "item_count": 9
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1596,
+                        "y": 1060
+                    }
+                ]
+            },
+        ]
+    },
+    /*Soretta area*/
+    {
+        "name": "Soretta",
+        "color": "#059134",
+        "children": [
+            /*Mintos*/
+            {
+                "name": "Mintos, the fresh maker",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Left of Well",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1452,
+                        "y": 1356
+                    }
+                ]
+            },
+            /*Shrine*/
+            {
+                "name": "Shrine",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Grass in middle",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1748,
+                        "y": 1322
+                    }
+                ]
+            },
+            /*Soretta has no items, so it's not tracked.*/
+            /*Padequia Cave*/
+            {
+                "name": "Padequia Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 6
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1740,
+                        "y": 1852
+                    }
+                ]
+            },
+            /*Elfville/World Tree*/
+            {
+                "name": "Elfville/World Tree",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,gascanister" ],
+
+                        "item_count": 3
+                    },
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1820,
+                        "y": 1156
+                    }
+                ]
+            },
+        ]
+    },
+    /*Misc areas*/
+    {
+        "name": "Misc Areas",
+        "color": "#059134",
+        "children": [
+            /*Seaside Village*/
+            {
+                "name": "Seaside Village",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Infront of Statue",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beach",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 180,
+                        "y": 884
+                    }
+                ]
+            },
+            /*Stancia Castle Town*/
+            {
+                "name": "Stancia Castle Town",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Pot in right side of town, upper level of house",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dresser in right side of castle, lower level",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Make the King laugh",
+                        "access_rules": [ "$inCh5,boat,panon" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 312,
+                        "y": 152
+                    }
+                ]
+            },
+            /*Gardenbur Castle*/
+            {
+                "name": "Gardenbur Castle",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Pot in lower left side",
+                        "access_rules": [ "$inCh5,boat,magmastaff" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chest in lower level",
+                        "access_rules": [ "$inCh5,boat,magmastaff" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dresser in Queen's chamber",
+                        "access_rules": [ "$inCh5,boat,magmastaff" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Zenithian Shield Chest",
+                        "access_rules": [ "$inCh5,boat,magmastaff,finalkey" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1600,
+                        "y": 352
+                    }
+                ]
+            },
+            /*Gardenbur Cave*/
+            {
+                "name": "Gardenbur Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,boat,magmastaff" ],
+
+                        "item_count": 6
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1724,
+                        "y": 492
+                    }
+                ]
+            },
+            /*Shrine of Breaking Waves*/
+            {
+                "name": "Shrine of Breaking Waves",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,boat,magickey" ],
+
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1851,
+                        "y": 221
+                    }
+                ]
+            },
+            /*Cascade Cave*/
+            {
+                "name": "Cascade Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Entrance Treasure",
+                        "access_rules": [ "$inCh5,boat,magickey" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,boat,finalkey" ],
+
+                        "item_count": 4
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1748,
+                        "y": 700
+                    }
+                ]
+            },
+            /*Riverton*/
+            {
+                "name": "Riverton",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Center Island Search Spot",
+                        "access_rules": [ "$inCh5,boat" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1163,
+                        "y": 1667
+                    }
+                ]
+            },
+            /*Colossus*/
+            {
+                "name": "Colossus",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,boat,finalkey" ],
+
+                        "item_count": 5
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1155,
+                        "y": 1717
+                    },
+                    {
+                        "map": "worldmap",
+                        "x": 1155,
+                        "y": 1748
+                    }
+                ]
+            },
+            /*Dire Palace*/
+            {
+                "name": "Riverton",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Basement Treasures",
+                        "access_rules": [ "$inCh5,boat,finalkey" ],
+
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Basement Grave Search",
+                        "access_rules": [ "$inCh5,boat,finalkey" ],
+
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kitchen Pot",
+                        "access_rules": [ "$inCh5,boat,finalkey" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 1320,
+                        "y": 1657
+                    }
+                ]
+            },
+        ]
+    },
+    /*Gottside area*/
+    {
+        "name": "Gottside",
+        "color": "#059134",
+        "children": [
+            /*Gottside*/
+            {
+                "name": "Gottside",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Top-right basement Dresser",
+                        "access_rules": [ "$inCh5,gascanister" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gottside",
+                        "x": 520,
+                        "y": 488
+                    }
+                ]
+            },
+            /*Shrine of the Horn*/
+            {
+                "name": "Shrine of the Horn",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,gascanister" ],
+
+                        "item_count": 2
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gottside",
+                        "x": 728,
+                        "y": 472
+                    }
+                ]
+            },
+            /*Zenithian Tower*/
+            {
+                "name": "Zenithian Tower",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+
+                        "item_count": 5
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gottside",
+                        "x": 396,
+                        "y": 792
+                    }
+                ]
+            },
+            /*Zenithian Castle*/
+            {
+                "name": "Zenithian Castle",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dresser on middle floor, next to World Dew NPC",
+                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gottside",
+                        "x": 396,
+                        "y": 710
+                    }
+                ]
+            },
+            /*Final Cave*/
+            {
+                "name": "Final Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+
+                        "item_count": 13
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "gottside",
+                        "x": 286,
+                        "y": 296
+                    }
+                ]
+            },
+        ]
+    },
+    /*Evil World*/
+    {
+        "name": "Evil World",
+        "color": "#059134",
+        "children": [
+            /*Den of the Gigademon*/
+            {
+                "name": "Den of the Gigademon",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Long Trek through the Marsh",
+                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "evilworld",
+                        "x": 310,
+                        "y": 744
+                    }
+                ]
+            },
+            /*Den of Radimvice*/
+            {
+                "name": "Final Cave",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "evilworld",
+                        "x": 806,
+                        "y": 360
+                    }
+                ]
+            },
+            /*Necrosaro's Palace*/
+            {
+                "name": "Necrosaro's Palace",
+                "color": "#aa860d",
+                "sections": [
+                    {
+                        "name": "Dungeon Treasures",
+                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+
+                        "item_count": 4
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "evilworld",
+                        "x": 512,
+                        "y": 560
+                    }
+                ]
+            },
+        ]
+    }
+]

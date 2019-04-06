@@ -1,0 +1,293 @@
+{
+    "map_enabled": true,
+    "auto_pin_capturing_locations": false,
+    "auto_unpin_on_clear": true,
+    "layout_swap_left_right": false,
+    "disabled_image_filter": "grayscale, dim",
+    "layouts": {
+        "shared_item_grid": {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Early Game",
+                    "margin": "1,1",
+                    "content": {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [ 
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "content": [
+                                    {
+                                        "type": "group",
+                                        "header": "Chapter 1",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "playgroundrumor", "flyingshoes", "ch1complete" ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Chapter 2",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "goldenbracelet", "birdsongnectar", "ch2complete" ]
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "content": [
+                                    {
+                                        "type": "group",
+                                        "header": "Chapter 3",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "ironsafe", "bridgesbuilt", "princesletter", "royalscroll"], 
+                                                [ "silverstatuette", "shopbought", "ch3complete" ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Chapter 4",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "sphereofsilence", "gunpowderjar", "boardingpass"], 
+                                                [ "orin", "ch4complete" ]
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Chapter 5 / Multi-Purpose",
+                    "margin": "1,1",
+                    "content": {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "1,1",
+                        "content": [ 
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "margin": "1,1",
+                                "content": [
+                                    {
+                                        "type": "group",
+                                        "header": "Recruitments",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "healie", "strom", "laurent", "orinrecruitment" ],
+                                                [ "hector", "panonrecruitment", "lucia", "doran" ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Zenithian Gear",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "zenithiansword", "zenithianshield", "zenithianarmor", "zenithianhelm" ]
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "group",
+                                        "header": "Keys",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "thiefskey", "magickey", "finalkey" ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Required Key Items",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "symboloffaith", "fireofserenity", "boat", "panon" ],
+                                                [ "padequiaseed", "padequiaroot", "magmastaff" ],
+                                                [ "staffoftransform", "gascanister", "stoneofdrought" ]
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "group",
+                                        "header": "Useful But Not Required",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "metalbabblesword", "metalbabbleshield", "metalbabblearmor", "metalbabblehelm" ],
+                                                [ "hatofhappiness", "stilettoearrings", "aeolusshield" ],
+                                                [ "demonhammer", "swordofdecimation", "swordoflethargy" ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "group",
+                                        "header": "Basically Useless",
+                                        "margin": "1,1",
+                                        "content": {
+                                            "type": "itemgrid",
+                                            "h_alignment": "center",
+                                            "item_margin": "1,2",
+                                            "rows": [
+                                                [ "fluteofuncovering", "gumpod", "lampofdarkness", "sandglassofregression" ]
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "container",
+                    "margin": "1,1",
+                    "content": {
+                        "type": "recentpins",
+                        "style": "wrap",
+                        "h_alignment": "stretch",
+                        "v_alignment": "stretch",
+                        "orientation": "vertical",
+                    }
+                }
+            ]
+        },
+        "tracker_capture_item": {
+            "type": "container",
+            "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+            }
+        },
+        "tracker_default": {
+            "type": "container",
+            "background": "#000000",
+            "content": {
+                "type": "dock",
+                //"v-alignment": "stretch",
+                "dropshadow": true,
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Items",
+                        "dock": "bottom",
+                        "content": {
+                            "type": "layout",
+                            "key": "shared_item_grid"
+                        }
+                    },
+                    {
+                        "type": "map"
+                    }
+                    /*{
+                        "type": "container",
+                        "header": "Maps",
+                        "dock": "top",
+                        "compact": true,
+                        "background": "#000000",
+                        "margin": "0,0,0,0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "content": [
+                                    {
+                                        //"type": "group",
+                                        //"content": {
+                                            "type": "map",
+                                            "maps": [ "worldmap" ],
+                                            "margin": "1,1"
+                                        //}
+                                    },
+                                    {
+                                        "type": "array",
+                                        "orientation": "vertical",
+                                        "content": [
+                                            {
+                                                //"type": "group",
+                                                //"content": {
+                                                    "type": "map",
+                                                    "maps": [ "gottside" ],
+                                                    "margin": "1,1"
+                                                //}
+                                            },
+                                            {
+                                                //"type": "group",
+                                                //"content": {
+                                                    "type": "map",
+                                                    "maps": [ "evilworld" ],
+                                                    "margin": "1,1"
+                                                //}
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }*/
+                ]
+            }
+        }
+    }
+}
