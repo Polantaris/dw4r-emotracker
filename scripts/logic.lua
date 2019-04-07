@@ -41,7 +41,7 @@ end
 function canAccessEndor()
     if Tracker:ProviderCountForCode("ch2complete") <= 0 and Tracker:ProviderCountForCode("birdsongnectar") > 0 then
         return 1
-    elseif Tracker:ProviderCountForCode("ch3complete") <= 0 and Tracker:ProviderCountForCode("bridgebuilt") > 0 then
+    elseif Tracker:ProviderCountForCode("ch3complete") <= 0 and Tracker:ProviderCountForCode("bridgesbuilt") > 0 then
         return 1
     elseif Tracker:ProviderCountForCode("ch4complete") > 0 then
         return 1

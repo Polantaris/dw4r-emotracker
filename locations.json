@@ -1110,7 +1110,7 @@
                 "sections": [
                     {
                         "name": "Top-right basement Dresser",
-                        "access_rules": [ "$inCh5,gascanister" ],
+                        "access_rules": [ "$inCh5,boat,gascanister" ],
 
                         "item_count": 1
                     }
@@ -1130,7 +1130,7 @@
                 "sections": [
                     {
                         "name": "Dungeon Treasures",
-                        "access_rules": [ "$inCh5,gascanister" ],
+                        "access_rules": [ "$inCh5,boat,gascanister" ],
 
                         "item_count": 2
                     }
@@ -1150,7 +1150,7 @@
                 "sections": [
                     {
                         "name": "Dungeon Treasures",
-                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+                        "access_rules": [ "$inCh5,boat,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
 
                         "item_count": 5
                     }
@@ -1170,7 +1170,7 @@
                 "sections": [
                     {
                         "name": "Dresser on middle floor, next to World Dew NPC",
-                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+                        "access_rules": [ "$inCh5,boat,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
 
                         "item_count": 1
                     }
@@ -1190,7 +1190,7 @@
                 "sections": [
                     {
                         "name": "Dungeon Treasures",
-                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+                        "access_rules": [ "$inCh5,boat,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
 
                         "item_count": 13
                     }
@@ -1217,7 +1217,7 @@
                 "sections": [
                     {
                         "name": "Long Trek through the Marsh",
-                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+                        "access_rules": [ "$inCh5,boat,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
 
                         "item_count": 1
                     }
@@ -1237,7 +1237,7 @@
                 "sections": [
                     {
                         "name": "Dungeon Treasures",
-                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+                        "access_rules": [ "$inCh5,boat,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
 
                         "item_count": 1
                     }
@@ -1257,7 +1257,7 @@
                 "sections": [
                     {
                         "name": "Dungeon Treasures",
-                        "access_rules": [ "$inCh5,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
+                        "access_rules": [ "$inCh5,boat,gascanister,zenithianarmor,zenithianshield,zenithiansword,zenithianhelm" ],
 
                         "item_count": 4
                     }
